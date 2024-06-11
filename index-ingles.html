@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    
+    <title>LP Web Developer</title>
+</head>
+
+<body> <!-- SECCION I N I C I O -->
+    <section id="inicio">
+            <div class="contenido">  
+                <div class="presentacion">
+                    <p class="bienvenida">Hello, I'm Raul Geovanni Rivera Lovo and  i'm dedicated to software development.</p>
+                    <div class="botones">
+                        <a href="#contacto" class="btn">Get in touch</a>
+                        <a href="Descargas/cv24Lovo_ingles.pdf" class="btn" download="cv24Lovo_ingles1.pdf">Download CV</a>
+                    </div>
+                </div>
+        <div class="contenido">
+                
+                    
+            
+            <header>
+                
+                <div class="contenido-header">
+                   <div class="logo"> 
+                     <img style="width: 70px; height: auto;" src="img/log1.jpeg" alt="Logo Raul Geovanni Rivera Lovo">
+                   </div>
+
+                  
+                    <nav id="nav" class=""> 
+                 
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">START</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">ABOUT ME</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">SKILL</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">MY PROJETS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACT</a></li>
+                            <div class="dropdown">
+                                <button class="dropbtn"><img src="https://flagcdn.com/16x12/gb.png" alt="EN"></button>
+                                <div class="dropdown-content">
+                                    <a href="index-ingles.html"><img src="https://flagcdn.com/16x12/us.png" alt="US"> English</a>
+                                    <a href="index.html"><img src="https://flagcdn.com/16x12/es.png" alt="ES"> Español</a>
+                                </div>
+                            </div>
+                           
+                    
+                        </ul>
+                    </nav>
+
+                   
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    
+                         
+                    <div class="redes">
+                     
+                        <a href="https://github.com/RiveraLovo"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/raul-geovanny-rivera-lovo-8b2731142/"><i class="fa-brands fa-linkedin"></i></a>
+                           
+                    </div>
+                </div>
+            </header>
+           
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto2.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">About Me</p>
+            <h2>Hi, I am <span>Raul Geovanni Rivera Lovo</span> </h2>
+            <h3>Student in Systems Engineering and Networks Cycle (IX) </h3>
+            <p>I am a student of Systems Engineering in the ninth cycle, with a deep passion for software development in technologies such as HTML, Java, Kotlin, C# and databases. My academic training and practical experience have provided me with a solid foundation in systems engineering principles, as well as in coding and software design.</p>
+            <p>Responsible, disciplined, and deeply committed to excellence, I have excelled in my studies and projects for my ability to address and overcome complex challenges, always maintaining a high standard of quality in my work. My practical approach and ability to quickly learn new technologies have allowed me to effectively apply my knowledge in a variety of software development contexts.</p>
+            <p>Currently, I am looking for opportunities that allow me to apply and expand my knowledge in challenging and enriching projects.</p>
+            <a href="Descargas\cv24Lovo_ingles.pdf"  download="cv24Lovo_ingles.pdf">Download CV</a>
+            <body>
+                <div style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+                    <h2 style="font-size: 24px;">TESTIMONIOS</h2>
+                    <h20 style="font-size: 24px;">Ing Krisia Zapata</h20>
+                    <embed src="Descargas/krisia.pdf" type="application/pdf" width="150%" height="80%" />
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+                    <h2 style="font-size: 24px;">ing Alcir Gustavo Quintanilla Rodríguez </h2>
+                    <embed src="Descargas/Carta-de-recomendacion-academica Raul.pdf" type="application/pdf" width="150%" height="80%" />
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+                    <h2 style="font-size: 24px;">Ing. Marvin Parada</h2>
+                    <embed src="Descargas/Raul_Lvo.pdf" type="application/pdf" width="150%" height="80%" />
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+                    <h2 style="font-size: 24px;">Lic. Máster.  Oscar Roberto Torres Rodríguez</h2>
+                    <embed src="Descargas/Raúl.pdf" type="application/pdf" width="150%" height="80%" />
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+                    <h2 style="font-size: 24px;">Mi Documento PDF</h2>
+                    <embed src="Descargas/CV_2024_Lovo1.pdf" type="application/pdf" width="150%" height="80%" />
+                </div>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S 
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>KOTTLIN</li>
+                </ul>
+                <p>especialización en la creación y el diseño visual de páginas web, implicando habilidades en lenguajes como HTML, CSS, JavaScript.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Porgramación PHP</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p> desarrollo de aplicaciones web del lado del servidor, incluyendo la escritura de scripts dinámicos, manejo de bases de datos y autenticación de usuarios.</p>
+            </div>
+            <
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Posicionamiento SEO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Alojamiento de Sitios</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>hostinger</li>
+                    
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Consultor Externo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            -->>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>SKILLS </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript & C# </p>
+                <span class="porcentaje">75%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>BData Base</p>
+                <span class="porcentaje">60%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>KOTTLIN</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+     <!-- SECCION PORTAFOLIO -->
+     <section id="portfolio">
+         
+        <h3 class="titulo-seccion">My Proyects</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Proyect Descripcion 
+                        agenda to complete all types of event control  
+                    </h4>
+                    <p>Web Desing</p>
+                </div>
+            </div>
+              
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4></h4>
+                    <p>Desktop application in Visual Basic</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    
+                    <p>Calculator app made in Android Studio</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4></h4>
+                    <p>Music player app made in Android Studio</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4></h4>
+                    <p>Order agenda app made in Android Studio</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4></h4>
+                    <p>Desktop application for student registration form</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    
+                    <p>Appointment scheduling application for a beauty salon in Android</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                
+                    <p>Inventory and sales registration application</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    
+                    <p>Accelerometer app</p>
+                </div>
+            </div>
+               
+                
+                
+                
+              
+        </div>
+    </section>
+
+<!-- SECCTION C O N T A C T O -->
+<section id="contacto">
+    <h3 class="titulo-seccion">Get in touch</h3>
+    <div class="contenedor-form">
+        <form action="https://formsubmit.co/ce4edcbaff88d4d0928a5c2b9a1ee449" method="POST">
+            <div class="fila mitad">
+                <input type="text" placeholder="Large Name  " name="Name" required id="name"  class="input-mitad">
+                <input type="email" placeholder="Email"  name="Email"required id="email" class="input-mitad">
+            </div>
+            <div class="fila">
+                <input type="text" placeholder="Subject..." name="_subject" required id="subject"  class="input-full">
+            </div>
+            <div class="fila">
+                <textarea id="message" cols="30" rows="10"  name="Message" placeholder="Your message..." class="input-full"></textarea>
+            </div>
+
+            <input type="submit" value="Send message " class="btn-enviar">
+        </form>
+    </div>
+</section>
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p> © All rights reserved Raul Geovanni Rivera Lovo TechCraft - 2024</p>
+        <p>rivera.soriano1997@gmail.com</p>
+        <div class="redes">
+          
+            <a href="https://github.com/RiveraLovo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/raul-geovanny-rivera-lovo-8b2731142/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>
